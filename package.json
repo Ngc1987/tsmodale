@@ -1,7 +1,10 @@
 {
   "name": "tsmodale",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "homepage": "https://github.com/Ngc1987/tsmodale",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.1",
@@ -22,7 +25,9 @@
     "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
+    "clean": "rimraf dist/",
+    "copy-files": "copyfiles -u 1 src/**/*.html src/**/*.css dist/",
+    "build": "npm run clean && tsc && npm run copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +51,13 @@
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
-    "@types/styled-components": "^5.1.19"
-  }
+    "@types/styled-components": "^5.1.19",
+    "copyfiles": "^2.4.1",
+    "react-router-dom": "^6.2.1",
+    "rimraf": "^3.0.2"
+  },
+  "files": [
+    "/dist",
+    "package.json"
+  ]
 }
