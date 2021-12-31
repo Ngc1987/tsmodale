@@ -4,7 +4,7 @@
 # TsModale
 
 <p align="center">
-  🪟 tsmodale is a typescript modale plugin, to display for a form validation on submit 🪟
+  🪟 tsmodale is a typescript modale plugin, to display for a form validation on submit for example 🪟
 </p>
 
 
@@ -18,7 +18,7 @@
 
 ## 1. Npmjs package
 
-The npm package can be viewed by following the link: [documentation](https://argentbankdocumentation.netlify.app/)
+The npm package can be viewed by following the link: [TsModale](https://www.npmjs.com/package/tsmodale)
 
 ## 2. Author
 
