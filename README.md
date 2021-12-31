@@ -1,4 +1,6 @@
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)[![GitHub](https://img.shields.io/badge/JSX-4F4FD4?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/docs/introducing-jsx.html)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Jsx](https://img.shields.io/badge/JSX-23159c?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/docs/introducing-jsx.html)
+[![Typescript](https://img.shields.io/badge/TYPESCRIPT-3466f0?style=for-the-badge&logo=typescript&logoColor=1c1275)](https://www.typescriptlang.org/)
 
 
 # TsModale
