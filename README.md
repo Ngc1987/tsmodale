@@ -46,21 +46,21 @@ import {Modale, ModaleProps} from "tsmodale";
 
 ## 5 Props
 
-- The modale need one required props, who is the text you want to be displayed on this. Obligatorily a string
+- The modale need one required props, who is the text you want to be displayed on this. Obligatorily a string.
 ```html
 <Modale text="Congratulations, you successly created a new employee !"/>
 ```
-- You can choose a personnal colour, just give a colour prop on a string like below. If you don't put this prop, the default color will be black
+- You can choose a personnal colour, just give a colour prop on a string like below. If you don't put this prop, the default color will be black. Obligatorily a string.
 ```html
 <Modale text="Congratulations, you successly created a new employee !" colour="#8acd32"  />
 ```
-- You can put an autoclose prop, with the time in milliseconds. In this case, the modale disapears after the parameted time. In the exemple, the modale will disapear after 2 seconds. If set, the button will not appear, the modale only appears and disappears. And no action can be setting on the button.
+- You can put an autoclose prop, with the time in milliseconds. In this case, the modale disapears after the parameted time. In the exemple, the modale will disapear after 2 seconds. If set, the button will not appear, the modale only appears and disappears. And no action can be setting on the button. Obligatorily a number.
 ```html
 <Modale text="Congratulations, you successly created a new employee !" colour="#8acd32" autoclose={2000} />
 ```
-- This is the text who need to be displayed on the button, not required if autoclose param is set, but need to be set if not. It will be the text on the button to confirm an action.
+- buttonText props is the text who need to be displayed on the button, not required if autoclose param is set, but need to be set if not. It will be the text on the button to confirm an action. Obligatorily a string.
 ```html
-<Modale text="Congratulations, you successly created a new employee !" colour="#8acd32" buttonText="OK" />
+<Modale text="Congratulations, you successly created a new employee !" buttonText="OK" colour="#8acd32"  />
 ```
 - Set a function you need to be called on the click of the button, to hide the modale and/or other actions.
 ```js
